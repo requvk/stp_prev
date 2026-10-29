@@ -1,0 +1,288 @@
+[
+  {
+    "component": "freeimage",
+    "version": "3.18.0",
+    "license": "GPL-2.0-or-later OR GPL-3.0-or-later OR FreeImage",
+    "origin_url": "https://conda.anaconda.org/conda-forge/win-64/freeimage-3.18.0-hf4481c9_24.conda",
+    "origin_sha256": "2ce0b1b16c8a902c701c2397efc3943230ebb380ade1691e2df61ea250a53534",
+    "native_names_verified": true,
+    "dlls": [
+      {
+        "path": "FreeImage-cdc93a325d5d072e5fb5e9d45cff8d2e.dll",
+        "sha256": "670ad2bf7cf19d05a739bc7fc508d27205dade420375a475c0f9437096a37850"
+      }
+    ]
+  },
+  {
+    "component": "freetype",
+    "version": "2.12.1",
+    "license": "GPL-2.0-only OR FTL",
+    "origin_url": "https://conda.anaconda.org/conda-forge/win-64/freetype-2.12.1-hdaf720e_2.conda",
+    "origin_sha256": "2c53ee8879e05e149a9e525481d36adfd660a6abda26fd731376fa64ff03e728",
+    "native_names_verified": true,
+    "dlls": [
+      {
+        "path": "freetype-111bbfd18798ec20698ad64fb25a600c.dll",
+        "sha256": "f22aff08a7088afca5fbac8f60ff9b4f0f8ece2d09e8e7ed5f6807597f23387b"
+      }
+    ]
+  },
+  {
+    "component": "imath",
+    "version": "3.2.2",
+    "license": "BSD-3-Clause",
+    "origin_url": "https://conda.anaconda.org/conda-forge/win-64/imath-3.2.2-h1608b31_0.conda",
+    "origin_sha256": "2aa57a5ed668ab34cc061b61082e3cee893d2e45ebc33f9432d13f7f292a990e",
+    "native_names_verified": true,
+    "dlls": [
+      {
+        "path": "Imath-93e5719ce25c27e234d7d3cfef1a30c5.dll",
+        "sha256": "5a6f13d69d70f8342d86affed788f8ff882afc14ff4acb0ad25da6da78ae84c1"
+      }
+    ]
+  },
+  {
+    "component": "lcms2",
+    "version": "2.19.1",
+    "license": "MIT",
+    "origin_url": "https://conda.anaconda.org/conda-forge/win-64/lcms2-2.19.1-hf2c6c5f_0.conda",
+    "origin_sha256": "57ecd32470a2607db238e631cda6d160ad65451715065fc4449acb11fe48fe28",
+    "native_names_verified": true,
+    "dlls": [
+      {
+        "path": "lcms2-7ba64f6e0c66e90b06b6fdda7ed89f37.dll",
+        "sha256": "7ba64f6e0c66e90b06b6fdda7ed89f37da5988d876860d407965a87fde6b8292"
+      }
+    ]
+  },
+  {
+    "component": "lerc",
+    "version": "4.1.0",
+    "license": "Apache-2.0",
+    "origin_url": "https://conda.anaconda.org/conda-forge/win-64/lerc-4.1.0-hd936e49_0.conda",
+    "origin_sha256": "45df58fca800b552b17c3914cc9ab0d55a82c5172d72b5c44a59c710c06c5473",
+    "native_names_verified": true,
+    "dlls": [
+      {
+        "path": "Lerc-8e574cd1bc0b7f8e260d4530daa7446d.dll",
+        "sha256": "27385d40523237cf998f5c5030c2c1673e5dbb94872b44f21959175d98aee51e"
+      }
+    ]
+  },
+  {
+    "component": "libdeflate",
+    "version": "1.25",
+    "license": "MIT",
+    "origin_url": "https://conda.anaconda.org/conda-forge/win-64/libdeflate-1.25-h51727cc_0.conda",
+    "origin_sha256": "834e4881a18b690d5ec36f44852facd38e13afe599e369be62d29bd675f107ee",
+    "native_names_verified": true,
+    "dlls": [
+      {
+        "path": "deflate-0c8d7e40b4512d86969e2003a7d8bede.dll",
+        "sha256": "0c8d7e40b4512d86969e2003a7d8bede601cfb9bc0a2d2472056a08a769769d5"
+      }
+    ]
+  },
+  {
+    "component": "libjpeg-turbo",
+    "version": "3.1.4.1",
+    "license": "IJG AND BSD-3-Clause AND Zlib",
+    "origin_url": "https://conda.anaconda.org/conda-forge/win-64/libjpeg-turbo-3.1.4.1-hfd05255_0.conda",
+    "origin_sha256": "698d57b5b90120270eaa401298319fcb25ea186ae95b340c2f4813ed9171083d",
+    "native_names_verified": true,
+    "dlls": [
+      {
+        "path": "jpeg8-77bef8b5257987800e01806f64a189e3.dll",
+        "sha256": "77bef8b5257987800e01806f64a189e312ba057e138356e69dc4367555bd0d93"
+      }
+    ]
+  },
+  {
+    "component": "liblzma",
+    "version": "5.8.3",
+    "license": "0BSD",
+    "origin_url": "https://conda.anaconda.org/conda-forge/win-64/liblzma-5.8.3-hfd05255_0.conda",
+    "origin_sha256": "d636d1a25234063642f9c531a7bb58d84c1c496411280a36ea000bd122f078f1",
+    "native_names_verified": true,
+    "dlls": [
+      {
+        "path": "liblzma-64eb6567bead1a5b7386bd7acd1cdd9d.dll",
+        "sha256": "64eb6567bead1a5b7386bd7acd1cdd9db8f9a03133eef7ae8208ae555738d680"
+      }
+    ]
+  },
+  {
+    "component": "libpng",
+    "version": "1.6.58",
+    "license": "zlib-acknowledgement",
+    "origin_url": "https://conda.anaconda.org/conda-forge/win-64/libpng-1.6.58-h7351971_0.conda",
+    "origin_sha256": "218913aeee391460bd0e341b834dbd9c6fa6ae0a4276c0c300266cc99a816a28",
+    "native_names_verified": true,
+    "dlls": [
+      {
+        "path": "libpng16-c3f4406bf6331f0eb2bdd3c3323d921a.dll",
+        "sha256": "10429b82f82ac04dbc0633ed61616e5c5057812e30e2a9fcb12b598b4d2fb7d5"
+      }
+    ]
+  },
+  {
+    "component": "libraw",
+    "version": "0.21.5",
+    "license": "LGPL-2.1-only",
+    "origin_url": "https://conda.anaconda.org/conda-forge/win-64/libraw-0.21.5-h345c428_0.conda",
+    "origin_sha256": "e8deadcca9dc9371e36778638bb3b3869dc79576a3d2ddfc40b5d92efbf49dbc",
+    "native_names_verified": true,
+    "dlls": [
+      {
+        "path": "raw-45784079ff4d194ec274ed36f7b6b205.dll",
+        "sha256": "23efe5297b755d4fedf0ddb1ce36b51fd2e6ada5409e4ac5696d91757b2dbe4a"
+      }
+    ]
+  },
+  {
+    "component": "libtiff",
+    "version": "4.7.1",
+    "license": "HPND",
+    "origin_url": "https://conda.anaconda.org/conda-forge/win-64/libtiff-4.7.1-h8f73337_1.conda",
+    "origin_sha256": "f1b8cccaaeea38a28b9cd496694b2e3d372bb5be0e9377c9e3d14b330d1cba8a",
+    "native_names_verified": true,
+    "dlls": [
+      {
+        "path": "tiff-36f0745325765f7bfe29a721cde40b8e.dll",
+        "sha256": "e143c6d3d2f6240d7259f0f8a7c28d027333e8ce731b99db377e08ab1e9228d1"
+      }
+    ]
+  },
+  {
+    "component": "libwebp-base",
+    "version": "1.6.0",
+    "license": "BSD-3-Clause",
+    "origin_url": "https://conda.anaconda.org/conda-forge/win-64/libwebp-base-1.6.0-h4d5522a_0.conda",
+    "origin_sha256": "7b6316abfea1007e100922760e9b8c820d6fc19df3f42fb5aca684cfacb31843",
+    "native_names_verified": true,
+    "dlls": [
+      {
+        "path": "libsharpyuv-c910eeed9d8f2bbf76ba6edf2e292ff7.dll",
+        "sha256": "c910eeed9d8f2bbf76ba6edf2e292ff7534a2674e2fb284a40514fe4e5f0a653"
+      },
+      {
+        "path": "libwebp-d04c2bb4fae02ef22f9f33389e8fa295.dll",
+        "sha256": "6ccb85825bff74d705ee5ac491a30a6555afb69d5e2ca8aec63e73c00929a3be"
+      },
+      {
+        "path": "libwebpmux-91ab52d47d455f8c682d0bb688b4702f.dll",
+        "sha256": "13204ad8022e8022eaab8fba417de3208f5485ba474187ce5844ab3c076d00e5"
+      }
+    ]
+  },
+  {
+    "component": "libzlib",
+    "version": "1.3.2",
+    "license": "Zlib",
+    "origin_url": "https://conda.anaconda.org/conda-forge/win-64/libzlib-1.3.2-hfd05255_2.conda",
+    "origin_sha256": "88609816e0cc7452bac637aaf65783e5edf4fee8a9f8e22bdc3a75882c536061",
+    "native_names_verified": true,
+    "dlls": [
+      {
+        "path": "zlib-85c711c83f96bed93184bede15be6b5a.dll",
+        "sha256": "85c711c83f96bed93184bede15be6b5a3e5444df09dfffef00564107189dc722"
+      }
+    ]
+  },
+  {
+    "component": "openexr",
+    "version": "3.4.12",
+    "license": "BSD-3-Clause",
+    "origin_url": "https://conda.anaconda.org/conda-forge/win-64/openexr-3.4.12-h7faf11f_0.conda",
+    "origin_sha256": "08ef1d8a85b74a9e7fc3010008e9a4ce41196f841d26c51892d5cc5f39602863",
+    "native_names_verified": true,
+    "dlls": [
+      {
+        "path": "Iex-fae5e0881fcdc423b6db34b2e97d9dd0.dll",
+        "sha256": "454ff06ae67c59ebc072ca2d323cb86dc662a350027e31f880e7de0d462b630f"
+      },
+      {
+        "path": "IlmThread-765b26b0caa5ec89c300feae4fd8d0e0.dll",
+        "sha256": "7fc67d74ea0686d8d3a48a4379766738b02e508771b288188aa789d0368a7a82"
+      },
+      {
+        "path": "OpenEXR-bf6fe40a5b675f43bf836498a2ac2d38.dll",
+        "sha256": "503835435d1a94b1a72aaf9c9fc37be097e3f46a8354d913110d07227cee88a7"
+      },
+      {
+        "path": "OpenEXRCore-43a3d1e6dcf808d3b52c6aa1d1b3149b.dll",
+        "sha256": "ff9bec06b9b37952cbc4fbcf176a04ac4a36fe5d2df9131b84099b64313d2392"
+      }
+    ]
+  },
+  {
+    "component": "openjpeg",
+    "version": "2.5.4",
+    "license": "BSD-2-Clause",
+    "origin_url": "https://conda.anaconda.org/conda-forge/win-64/openjpeg-2.5.4-h0e57b4f_0.conda",
+    "origin_sha256": "24342dee891a49a9ba92e2018ec0bde56cc07fdaec95275f7a55b96f03ea4252",
+    "native_names_verified": true,
+    "dlls": [
+      {
+        "path": "openjp2-274e6a200cd564b014389546f6472d38.dll",
+        "sha256": "274e6a200cd564b014389546f6472d387717dece95b7d03db5f99195bd1d6e03"
+      }
+    ]
+  },
+  {
+    "component": "openjph",
+    "version": "0.27.3",
+    "license": "BSD-2-Clause",
+    "origin_url": "https://conda.anaconda.org/conda-forge/win-64/openjph-0.27.3-hf13a347_0.conda",
+    "origin_sha256": "4f930d1e82e25b3cba375fc2c1cb53a7cd818a831914ff362bb3230eb3b2b58f",
+    "native_names_verified": true,
+    "dlls": [
+      {
+        "path": "openjph-c9b5711ab6c6a22bd06855ce333ce0ce.dll",
+        "sha256": "c9b5711ab6c6a22bd06855ce333ce0ce6a2f11b7c578786f79c1a84c93d43bfa"
+      }
+    ]
+  },
+  {
+    "component": "vc14_runtime",
+    "version": "14.51.36231",
+    "license": "LicenseRef-MicrosoftVisualCpp2015-2022Runtime",
+    "origin_url": "https://conda.anaconda.org/conda-forge/win-64/vc14_runtime-14.51.36231-h1b9f54f_38.conda",
+    "origin_sha256": "957c7c65583c7107a5e76f39756c6361fcb7b0dc101ac7c0aea86e7ca09fe49c",
+    "native_names_verified": true,
+    "dlls": [
+      {
+        "path": "msvcp140-639342ea9a67c0009122238ce070a825.dll",
+        "sha256": "639342ea9a67c0009122238ce070a8257e2e04d367d627509fec29f8442afb42"
+      }
+    ]
+  },
+  {
+    "component": "vcomp14",
+    "version": "14.51.36231",
+    "license": "LicenseRef-MicrosoftVisualCpp2015-2022Runtime",
+    "origin_url": "https://conda.anaconda.org/conda-forge/win-64/vcomp14-14.51.36231-h1b9f54f_38.conda",
+    "origin_sha256": "c645fdc1f0f47718431d973386e946754a10200e7ba2c32032560913a970cacd",
+    "native_names_verified": true,
+    "dlls": [
+      {
+        "path": "vcomp140-f96f3a14d88d8846f31f3ab38a490304.dll",
+        "sha256": "f96f3a14d88d8846f31f3ab38a490304ce7d6e4f70fae4304c63e59c7aea2d30"
+      }
+    ]
+  },
+  {
+    "component": "zstd",
+    "version": "1.5.7",
+    "license": "BSD-3-Clause",
+    "origin_url": "https://conda.anaconda.org/conda-forge/win-64/zstd-1.5.7-h534d264_6.conda",
+    "origin_sha256": "368d8628424966fd8f9c8018326a9c779e06913dd39e646cf331226acc90e5b2",
+    "native_names_verified": true,
+    "dlls": [
+      {
+        "path": "zstd-ca228f0f33b8296d6650b4694bb38ba9.dll",
+        "sha256": "ca228f0f33b8296d6650b4694bb38ba9ea8796c523b6b5e0682fcc05a5edab0a"
+      }
+    ]
+  }
+]

@@ -20,6 +20,7 @@ The original code is covered by [MIT](LICENSE).
 | [NumPy](https://github.com/numpy/numpy) | NumPy Developers | Arrays, projection, pixel conversion |
 | [Pillow](https://github.com/python-pillow/Pillow) | Jeffrey A. Clark and contributors; PIL by Fredrik Lundh and Secret Labs AB | Images and antialiasing |
 | [Zig](https://ziglang.org/) | Andrew Kelley and contributors | C compiler, build tool only |
+| [MinGW-w64](https://www.mingw-w64.org/) | MinGW-w64 contributors | Windows GNU target runtime |
 
 Upstream copyright holders and incorporated components are defined by their
 own notices, not just this short table. [THIRD_PARTY.md](THIRD_PARTY.md) records

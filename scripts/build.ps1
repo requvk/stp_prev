@@ -57,8 +57,11 @@ try {
         & "$output\runtime\python.exe" -I -B tests/test_renderer.py $output
         if ($LASTEXITCODE) { throw 'Tests failed; package has not been archived' }
     }
-    Compress-Archive -Path "$output\*" -DestinationPath 'artifacts\StepPreview-x64.zip' -Force
-    Get-FileHash 'artifacts\StepPreview-x64.zip' -Algorithm SHA256 | Format-List
+    $archive = Join-Path $root 'artifacts\StepPreview-1.0.0-x64.zip'
+    Compress-Archive -Path "$output\*" -DestinationPath $archive -Force
+    $archiveHash = Get-FileHash -LiteralPath $archive -Algorithm SHA256
+    ($archiveHash.Hash.ToLowerInvariant() + '  ' + [IO.Path]::GetFileName($archive)) | Set-Content ($archive + '.sha256') -Encoding ASCII
+    $archiveHash | Format-List
     Write-Host "Built: $output"
 } finally {
     Pop-Location

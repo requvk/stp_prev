@@ -10,4 +10,4 @@
 *.cmd text eol=crlf
 *.png binary
 # Preserve upstream license texts, including their original whitespace.
-licenses/* -whitespace
+licenses/** -whitespace
