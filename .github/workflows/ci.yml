@@ -1,0 +1,27 @@
+name: Windows build and tests
+
+on:
+  push:
+    branches: [master]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: windows-2022
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.14.4'
+          architecture: x64
+      - name: Build native DLLs, package runtime and run tests
+        shell: powershell
+        run: .\scripts\build.ps1
+      # Runtime archives stay on the ephemeral runner until the binary license audit is complete.

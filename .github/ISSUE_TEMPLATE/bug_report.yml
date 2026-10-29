@@ -1,0 +1,28 @@
+name: Ошибка или медленные эскизы
+description: Проблема установки, отрисовки или производительности STEP Preview
+title: "[Bug]: "
+body:
+  - type: input
+    id: version
+    attributes:
+      label: Версия STEP Preview и Windows
+      placeholder: "Например: 1.0.0, Windows 11 x64 24H2"
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Как воспроизвести
+      description: Шаги, ожидаемый и фактический результат. Для скорости укажите время и число файлов.
+    validations:
+      required: true
+  - type: textarea
+    id: model
+    attributes:
+      label: Модель и режим просмотра
+      description: Размер STEP, деталь или сборка, есть ли внешние ссылки, вид значков, первый или повторный запрос. Прикладывайте только модели, которые разрешено публиковать.
+  - type: textarea
+    id: logs
+    attributes:
+      label: Ошибка или журнал
+      description: Удалите персональные пути и другие конфиденциальные данные. Журналы установки находятся в %TEMP%\StepPreview-SetupLogs.

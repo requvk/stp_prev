@@ -1,0 +1,4 @@
+cadquery-ocp-novtk==7.9.3.1.1
+cadquery-ocp-proxy==7.9.3.1.1
+numpy==2.4.2
+Pillow==12.1.1
