@@ -2,8 +2,6 @@
 
 ## STEP Preview
 
-- **[vkoshkarov](https://github.com/vkoshkarov)** — initiator and maintainer;
-  requirements, installation tests and real-model feedback.
 - **STEP Preview contributors** — subsequent contributions recorded in Git history.
 - Initial C/Python implementation, tests and setup scripts were developed with
   assistance from **OpenAI Codex**. This records development provenance; OpenAI

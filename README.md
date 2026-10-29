@@ -188,12 +188,11 @@ DLL реализует `IInitializeWithStream` и `IThumbnailProvider`. Моде
 
 ## Авторы и лицензия
 
-Инициатор и сопровождающий — [vkoshkarov](https://github.com/vkoshkarov).
 Первоначальная реализация подготовлена с помощью OpenAI Codex.
 
 | Компонент | Авторы / проект | Лицензия |
 |---|---|---|
-| STEP Preview: C/Python-код, скрипты и тесты | vkoshkarov и участники STEP Preview | [MIT](LICENSE) |
+| STEP Preview: C/Python-код, скрипты и тесты | Участники STEP Preview | [MIT](LICENSE) |
 | Open CASCADE Technology 7.9.3 | OPEN CASCADE SAS и участники OCCT | LGPL-2.1 с исключением OCCT |
 | OCP / cadquery-ocp-novtk 7.9.3.1.1 | Bernhard Walter и участники CadQuery/OCP | Apache-2.0 |
 | CPython 3.14.4 | Python Software Foundation и участники CPython | PSF License и включённые уведомления |
